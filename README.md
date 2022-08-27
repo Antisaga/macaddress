@@ -30,6 +30,10 @@ Option 2
  
 Option 3
 
-    Dockerfile 
+    git clone https://github.com/Antisaga/macaddress
+    cd macaddress/initial
+    sudo docker build --no-cache -t my-image:1 -f ./Dockerfile .
+    sudo docker run -it --rm my-image:1 /bin/sh
     
+
     
